@@ -6,6 +6,8 @@ const app = express();
 const port = process.env.PORT || 5000;
 const morgan = require("morgan");
 
+
+// middleWare
 app.use(cors());
 app.use(express.json());
 dotenv.config();
